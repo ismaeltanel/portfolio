@@ -3,26 +3,26 @@
 <template>
   <div>
     <section class="section is-large" id="hpage">
-      <img id="moonC" class="moonCircle" src="~/assets/mcBig2.svg" />
+      <img id="moonC" class="moonCircle" src="../assets/mcBig2.svg" />
 
       <div>
-        <img class="moonDot" src="~/assets/moondot.png" />
+        <img class="moonDot" src="../assets/moondot.png" />
         <div class="verticalFade"></div>
       </div>
 
       <div>
-        <img class="moonDotR" src="~/assets/moondot.png" />
+        <img class="moonDotR" src="../assets/moondot.png" />
         <div class="verticalFadeR"></div>
       </div>
 
       <a href="#about"
-        ><img class="geoCardA" src="~/assets/aboutNoText3.svg"
+        ><img class="geoCardA" src="../assets/aboutNoText3.svg"
       /></a>
       <a href="#works"
-        ><img class="geoCardW" src="~/assets/aboutNoText3.svg"
+        ><img class="geoCardW" src="../assets/aboutNoText3.svg"
       /></a>
       <a href="#contact"
-        ><img class="geoCardC" src="~/assets/aboutNoText3.svg"
+        ><img class="geoCardC" src="../assets/aboutNoText3.svg"
       /></a>
     </section>
 
