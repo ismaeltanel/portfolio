@@ -3,7 +3,7 @@
 <template>
   <div>
     <section class="section is-large" id="hpage">
-      <img id="moonC" class="moonCircle" src="../assets/mcBig2.svg" />
+      <img id="moonC" class="moonCircle" src="../assets/mcbig2.svg" />
 
       <div>
         <img class="moonDot" src="../assets/moondot.png" />
