@@ -77,28 +77,28 @@
       <div>
         <h1 class="text-right-left">
           <span class="left-text">It's me,</span>
-          <span class="byline">Tanel Ismael.</span>
+          <span class="byline tooltip">Tanel Ismael.<span class="tooltiptext">RIP me</span></span>
         </h1>
       </div>
 
       <div>
         <h1 class="text-left-right">
           <span class="left-text">From</span>
-          <span class="byline">Estonia</span>
+          <span class="byline tooltip">Estonia<span class="tooltiptext">The Real Motherland</span></span>
         </h1>
       </div>
 
       <div>
         <h1 class="text-right-left">
-          <span class="byline">27</span>
+          <span class="byline tooltip">27<span class="tooltiptext">Getting old for this shit</span></span>
           <span class="left-text">years of age.</span>
         </h1>
       </div>
 
       <h1 class="text-left-right" style="padding-left:10%;">
-          <span class="left-text">UI/UX</span>
-          <span class="byline">Web Dev</span>
-          <span class="left-text">Game Dev</span>
+          <span class="left-text tooltip">UI/UX<span class="tooltiptext">Simplicity & animations!</span></span>
+          <span class="byline tooltip">Web Dev<span class="tooltiptext">Gotta go fast!</span></span>
+          <span class="left-text tooltip">Game Dev <span class="tooltiptext">I love games!</span></span>
         </h1>
       <div>
         <h1>CV button</h1>
