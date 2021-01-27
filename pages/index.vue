@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <section class="section is-large" id="hpage">
+    <section id="hpage">
       <img id="moonC" class="moonCircle" src="../assets/mcbig2.svg" />
 
       <div>
@@ -26,22 +26,71 @@
       /></a>
     </section>
 
-    <section class="section is-large" id="about">
+    <section id="about">
+      <div class="diamondU">
+        <svg>
+          <defs>
+            <linearGradient id="myGradient">
+              <stop offset="5%" stop-color="#cee9fa" />
+              <stop offset="45%" stop-color="transparent" />
+            </linearGradient>
+          </defs>
+          <defs>
+            <linearGradient id="myGradient2">
+              <stop offset="5%" stop-color="transparent" />
+              <stop offset="85%" stop-color="#cee9fa" />
+            </linearGradient>
+          </defs>
+          <rect
+            x="171"
+            y="70"
+            width="310"
+            height="1"
+            fill="url('#myGradient')"
+          />
+          <rect
+            x="10"
+            y="70"
+            width="141"
+            height="1"
+            fill="url('#myGradient2')"
+          />
+          <svg>
+            <g>
+              <polygon
+                fill="#8752de"
+                points="116.008,115 125,96.909 133.992,115 
+		125,123.092 "
+                transform="scale(1) translate(36, -44)"
+              />
+            </g>
+          </svg>
+        </svg>
+      </div>
       <div>
-        <h1>Surprise motherfucker</h1>
+        <h1 class="line1">Surprise motherfucker </h1>
       </div>
 
       <div>
-        <h1>Surprise motherfucker</h1>
+        <h1 class="line2">It's me, Tanel Ismael.</h1>
       </div>
 
       <div>
-        <h1>Surprise motherfucker</h1>
+        <h1 class="line3">From Estonia</h1>
       </div>
 
       <div>
-        <h1>Surprise motherfucker</h1>
+        <h1 class="line4">27 years of age.</h1>
       </div>
+
+      <div>
+        <h1 class="line5">I enjoy UI/UX Web Dev Game Dev</h1>
+      </div>
+
+      <div>
+        <h1>CV button</h1>
+      </div>
+      <hr>
     </section>
 
     <section id="works">
@@ -53,15 +102,10 @@
               ><img src="1.jpg" alt="" />
               <p class="interfaceP">Interface Design</p>
               <div class="svg-wrapper">
-                <svg
-                  height="60"
-                  width="320"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
+                <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
                   <rect class="shape" height="60" width="320" />
-                </svg>
-              </div></nuxt-link
-            >
+                </svg></div
+            ></nuxt-link>
           </div>
           <div class="swiper-slide">
             <img src="2.jpg" alt="" />
@@ -210,8 +254,42 @@ export default {
 }
 
 #about h1 {
-  font-size: 30px;
+  font-size: 40px;
+  padding-bottom:30px;
   text-align: center;
+}
+
+.line1 {
+  padding-right: 500px;
+}
+
+.line2 {
+  padding-left: 500px;
+}
+
+.line3 {
+  padding-right: 500px;
+}
+
+.line4 {
+   padding-left: 500px;
+}
+
+.line5 {
+  padding-right: 300px;
+}
+
+
+.diamondU {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin:auto;
+  margin-top: 50px ;
+  width: 50%;
 }
 
 #works {
