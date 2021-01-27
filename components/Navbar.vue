@@ -29,6 +29,7 @@
     left: 0;
     right: 0;
     top: 2vh;
+    z-index: 999;
 }
 
 nav {

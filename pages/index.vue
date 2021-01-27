@@ -69,7 +69,7 @@
       </div>
       <div>
         <h1 class="text-left-right fromCenter">
-          <span class="left-text tooltip">Surprise<span class="tooltiptext">You're Awesome!</span></span>
+          <span class="left-text tooltip">Surprise<span class="tooltiptext">Motherfucker</span></span>
           <span class="byline">viewer!</span>
         </h1>
       </div>
@@ -296,14 +296,14 @@ export default {
   display:block;
   content: '';
   border-bottom: solid 2px #cee9fa;
-  transform: scaleX(0.01);
+  transform: scaleX(0.03);
   transition:  transform 600ms ease-in-out;
   
 }
 
 .fromCenter:hover:after {
   
-  transform: translateX(-30px) scaleX(0.4); 
+  transform: translateX(-10px) scaleX(0.3); 
 }
 
 .tooltip {
