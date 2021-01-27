@@ -68,29 +68,42 @@
         </svg>
       </div>
       <div>
-        <h1 class="line1">Surprise motherfucker </h1>
+        <h1 class="text-left-right">
+          <span class="left-text">Surprise</span>
+          <span class="byline">viewer!</span>
+        </h1>
       </div>
 
       <div>
-        <h1 class="line2">It's me, Tanel Ismael.</h1>
+        <h1 class="text-right-left">
+          <span class="left-text">It's me,</span>
+          <span class="byline">Tanel Ismael.</span>
+        </h1>
       </div>
 
       <div>
-        <h1 class="line3">From Estonia</h1>
+        <h1 class="text-left-right">
+          <span class="left-text">From</span>
+          <span class="byline">Estonia</span>
+        </h1>
       </div>
 
       <div>
-        <h1 class="line4">27 years of age.</h1>
+        <h1 class="text-right-left">
+          <span class="byline">27</span>
+          <span class="left-text">years of age.</span>
+        </h1>
       </div>
 
-      <div>
-        <h1 class="line5">I enjoy UI/UX Web Dev Game Dev</h1>
-      </div>
-
+      <h1 class="text-left-right" style="padding-left:10%;">
+          <span class="left-text">UI/UX</span>
+          <span class="byline">Web Dev</span>
+          <span class="left-text">Game Dev</span>
+        </h1>
       <div>
         <h1>CV button</h1>
       </div>
-      <hr>
+      <hr />
     </section>
 
     <section id="works">
@@ -255,30 +268,29 @@ export default {
 
 #about h1 {
   font-size: 40px;
-  padding-bottom:30px;
+  padding-bottom: 30px;
+  color: #b4cee7;
   text-align: center;
 }
 
-.line1 {
-  padding-right: 500px;
+.text-left-right {
+    text-align: right;
+    position: relative;
+    right:15%;
+
 }
 
-.line2 {
-  padding-left: 500px;
+.text-right-left {
+    text-align: left;
+    position: relative;
+    left:15%;
+
 }
 
-.line3 {
-  padding-right: 500px;
+.byline {
+    font-size: 40px;
+    color: #8752de;
 }
-
-.line4 {
-   padding-left: 500px;
-}
-
-.line5 {
-  padding-right: 300px;
-}
-
 
 .diamondU {
   display: flex;
@@ -287,8 +299,8 @@ export default {
 }
 
 hr {
-  margin:auto;
-  margin-top: 50px ;
+  margin: auto;
+  margin-top: 50px;
   width: 50%;
 }
 
