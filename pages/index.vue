@@ -68,8 +68,8 @@
         </svg>
       </div>
       <div>
-        <h1 class="text-left-right">
-          <span class="left-text">Surprise</span>
+        <h1 class="text-left-right fromCenter">
+          <span class="left-text tooltip">Surprise<span class="tooltiptext">You're Awesome!</span></span>
           <span class="byline">viewer!</span>
         </h1>
       </div>
@@ -292,6 +292,47 @@ export default {
     color: #8752de;
 }
 
+.fromCenter:after {
+  display:block;
+  content: '';
+  border-bottom: solid 2px #cee9fa;
+  transform: scaleX(0.01);
+  transition:  transform 600ms ease-in-out;
+  
+}
+
+.fromCenter:hover:after {
+  
+  transform: translateX(-30px) scaleX(0.4); 
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 220px;
+  background-color:#0a0919;
+  color: #cee9fa;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 10%;
+  margin-left: -40px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .diamondU {
   display: flex;
   justify-content: center;
@@ -380,7 +421,7 @@ hr {
 
 .svg-wrapper {
   position: absolute;
-  top: 35%;
+  top: 100vh;
   transform: translateY(-65%);
   margin: 0 auto;
   width: 320px;
@@ -402,8 +443,8 @@ hr {
   line-height: 32px;
   letter-spacing: 8px;
   color: #fff;
-  top: -48px;
-  position: relative;
+  top: 120vh;
+  position: absolute;
 }
 .svg-wrapper:hover .shape {
   stroke-width: 2px;
